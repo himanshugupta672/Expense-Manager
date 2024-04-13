@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_vertical"
+    app:cardCornerRadius="5dp"
+    android:layout_margin="5dp"
+    app:cardBackgroundColor="#3F51B5"
+    android:clickable="true"
+    app:cardElevation="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+    <TextView
+        android:id="@+id/txtLable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bananas"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_marginStart="6dp"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/txtAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="₹12"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/white"
+        android:textSize="20sp"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
